@@ -1,0 +1,36 @@
+.header-page .texte3 {
+    display: flex;
+    list-style-type: none;
+    transition: all ease 1s;
+    flex-direction: column;
+    background: var(--color-bg-nav);
+    text-align: center;
+    width: 100vw;
+    z-index: 0;
+    color: var(--color-white);
+}
+.header-page .texte2 {
+    display: none;
+}
+
+.header-page .btnHamburger {
+    display: none;
+}
+
+.header-page .texte {
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (min-width: $breakpoint-xs) {
+    .header-page .btnHamburger {
+        display: initial;
+        position: relative;
+        left: 300px;
+        bottom: 70px;
+        padding-top: 35px;
+        padding-right: 20px;
+    }
+}

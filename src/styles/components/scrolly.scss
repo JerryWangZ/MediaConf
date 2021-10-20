@@ -1,0 +1,21 @@
+[data-scrolly='scaleTout'] {
+    opacity: 0;
+    transition: transform 1.5s;
+    transform: scale(0.1);
+
+    &.is-active {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+[data-scrolly='scaleX'] {
+    opacity: 0;
+    transition: transform 1.5s;
+    transform: scaleX(0.1);
+
+    &.is-active {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}

@@ -1,0 +1,14 @@
+.deuxiemeCarousel {
+    max-width: 100vw;
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+    .deuxiemeCarousel {
+        img {
+            width: 100%;
+        }
+    }
+}

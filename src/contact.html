@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TimConf</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/main.css" />
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="site-container" data-component="Scrolly">
+            <header class="header-page" data-component="Header" data-scroll-limit=".1" data-auto-hide="true">
+                <div class="wrapper">
+                    <nav class="nav">
+                        <div class="logotitre">
+                            <a href="index.html"><img src="./assets/images/Logo.png" alt="Logo site" /></a>
+                        </div>
+
+                        <ul class="texte">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="programmation.html">Programmation</a></li>
+                            <li><a href="invite.html">Conférenciers</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.html">Acheter</a></li>
+                        </ul>
+                        <div class="btnHamburger">
+                            <span class="material-icons"> menu </span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section class="petition">
+                <div class="petition__content wrapper">
+                    <h1 data-scrolly="scaleX">Contact</h1>
+                    <p data-scrolly="scaleX">
+                        Voici la meilleure façon de nous contacter. Laisser nous vos coordonnées ainsi que votre message et nous vous recontacterons le plus vite possible.
+                    </p>
+
+                    <!-- Ajouter votre form de la semaine 10 ici! -->
+                    <form action="" class="form" autocomplete="off" data-component="Form"data-scrolly="scaleTout">
+                        <div class="form__body">
+                            <fieldset class="grid">
+                                <div class="input">
+                                    <label class="input__label" for="name">Nom</label>
+                                    <input
+                                        class="input__element"
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        placeholder="ex.: Parent"
+                                        required
+                                    />
+                                </div>
+                                <div class="input">
+                                    <label class="input__label" for="firstname">Prénom</label>
+                                    <input
+                                        class="input__element"
+                                        type="text"
+                                        name="firstname"
+                                        id="firstname"
+                                        placeholder="ex.: Matthieu"
+                                        required
+                                    />
+                                </div>
+                                
+                                <div class="input">
+                                    <label class="input__label" for="email">Courriel</label>
+                                    <input
+                                        class="input__element"
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="dequoiallo@hotmail.com"
+                                        required
+                                    />
+                                </div>
+                                <div class="input select">
+                                    <label class="input__label" for="journee">Ta journée préférée</label>
+                                    <select name="journee" id="journee" class="input__element" required>
+                                        <option value="2" hidden>Quelle journée vous intéresse le plus?</option>
+                                        <option value="20s">20 septembre</option>
+                                        <option value="21s">21 septembre</option>
+                                        <option value="22s">22 septembre</option>
+                                    </select>
+                                </div>
+                                <div class="input">
+                                    <label class="input__label" for="phone">Téléphone</label>
+                                    <input
+                                        class="input__element"
+                                        type="tel"
+                                        name="tel"
+                                        id="tel"
+                                        placeholder="(555)666-7777"
+                                        pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+                                        required
+                                    />
+                                </div>
+                                <p>Votre appartenance sexuelle</p>
+                                <div class="form__list" data-input-container>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="sex[]"
+                                            id="sex1"
+                                            value="male"
+                                            required
+                                        />
+                                        <label class="input__label" for="sex1">Mâle</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="sex[]"
+                                            id="sex2"
+                                            value="femme"
+                                            required
+                                        />
+                                        <label class="input__label" for="sex2">Femme</label>
+                                    </div>
+                                </div>
+                                <p>Votre invité préféré</p>
+                                <div class="form__list" data-input-container>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite1"
+                                            value="hubert"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite1">Hubert Goutelle</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite2"
+                                            value="pierrette"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite2">Pierrette Jassin</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite3"
+                                            value="isael"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite3">Isael Leblanc Roy</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite4"
+                                            value="ginette"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite4">Ginette Tremblay</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite5"
+                                            value="lydia"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite5">Lydia Forget Lemieux</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite6"
+                                            value="catherine"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite6">Catherine Roy</label>
+                                    </div>
+                                    <div class="input radio">
+                                        <input
+                                            class="input__element"
+                                            type="radio"
+                                            name="invite[]"
+                                            id="invite7"
+                                            value="gabrielle"
+                                            required
+                                        />
+                                        <label class="input__label" for="invite7">Gabrielle Pellerin</label>
+                                    </div>
+                                </div>
+
+
+                              
+                                <div class="input textarea u-grid-fullwidth">
+                                    <label class="input__label" for="comment">Commentaire</label>
+                                    <textarea class="input__element" name="comment" id="comment" maxlength="500" required> </textarea>
+                                </div>
+                                <div class="input checkbox">
+                                    <input
+                                        class="input__element"
+                                        type="checkbox"
+                                        name="optin[]"
+                                        id="optin"
+                                        value="true"
+                                    />
+                                    <label class="input__label" for="optin"
+                                        >Abonné aux infolettres</label
+                                    >
+                                </div>
+                            </fieldset>
+                            
+                            <div class="form__footer">
+                                <button class="button">Envoyer</button>
+                            </div>
+                        </div>
+
+                        <div class="form__confirmation">
+                            <h2>Merci</h2>
+                            <p>Votre formulaire a bien été envoyé.</p>
+                        </div>
+                    </form>
+                </div>
+
+            <footer>
+                <div class="wrapper">
+                    <div class="media">
+                        <div class="sociaux">
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-facebook"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-twitter"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-youtube"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-discord"></use>
+                            </svg>
+                        </div>
+                        
+                        <p>
+                            Projet fictif réalisé par ÉTUDIANT dans le cadre du cours Design d’expériences Techniques
+                            d’intégration multimédia - Collège Édouard-Montpetit
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

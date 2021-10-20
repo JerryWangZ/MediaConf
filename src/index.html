@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TimConf</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+        <link rel="stylesheet" href="styles/main.css" />
+
+        <script src="scripts/main.js" defer></script>
+    </head>
+
+    <body>
+        <div class="site-container" data-component="Scrolly">
+            <header class="header-page" data-component="Header" data-scroll-limit=".1" data-auto-hide="true">
+                <div class="wrapper">
+                    <nav class="nav">
+                        <div class="logotitre">
+                            <a href="index.html"><img src="./assets/images/Logo.png" alt="Logo site" /></a>
+                        </div>
+                        <ul class="texte">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="programmation.html">Programmation</a></li>
+                            <li><a href="invite.html">Conférenciers</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.html">Acheter</a></li>
+                        </ul>
+                        <div class="btnHamburger">
+                            <span class="material-icons"> menu </span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="hero">
+                <div class="contenu-hero">
+                    <h2>MédiaConf</h2>
+                    <p>Venez assister au 10e conférence de multimédia sur la 15e avenue du West</p>
+                    <p>20-21-22 septembre 2022</p>
+                    <a href="programmation.html"><h3>Réservation</h3></a>
+                </div>
+            </div>
+            <div class="article-conf">
+                <h2>C'est quoi la MédiaConf?</h2>
+                <div class="wrapper">
+                    <img src="./assets/images/AccImg1.png" alt="AccImg1" data-scrolly="scaleX" />
+                    <img src="./assets/images/AccImg2.png" alt="AccImg2" data-scrolly="scaleX" />
+                    <img src="./assets/images/AccImg3.png" alt="AccImg3" data-scrolly="scaleX" />
+                    <img src="./assets/images/AccImg4.png" alt="AccImg4" data-scrolly="scaleX" />
+                    <img src="./assets/images/AccImg5.png" alt="AccImg5" data-scrolly="scaleX" />
+                    <img src="./assets/images/AccImg6.png" alt="AccImg6" data-scrolly="scaleX" />
+
+                    <h3>
+                        La MédiaConf c’est où les gens connus dans la multimédia pourront vous montrer leurs projets et
+                        vous donner quelques techniques auxquels vous pouvez trouver intéressant pour le futur. Ils ont
+                        tous beaucoup d’expérience et d’années dans le marché du travail.
+                    </h3>
+                </div>
+
+                <h2>Invités</h2>
+                <div class="invites">
+                    <div class="wrapper">
+                        <div class="swiper-container" data-component="Carousel">
+                            <div class="swiper-wrapper premiereCarousel">
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite1.png" alt="Invité 1" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite2.png" alt="Invité 2" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite3.png" alt="Invité 3" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite4.png" alt="Invité 4" />
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite5.png" alt="Invité 5" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite6.png" alt="Invité 6" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite7.png" alt="Invité 7" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/Invite8.png" alt="Invité 8" />
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forfaits">
+                    <h2>Nos Forfaits</h2>
+                    <h3>Billet Individuel</h3>
+                    <img src="./assets/images/ticket1.png" alt="Premier billet" data-scrolly="scaleTout" />
+                    <p>Billet pour seulement une seule personne.</p>
+                    <h6>24.99$</h6>
+                    <h3>Billet Couple</h3>
+                    <img src="./assets/images/ticket2.png" alt="Deux billets" data-scrolly="scaleTout" />
+                    <p>Billet pour deux! Un deuxième billet pour votre conjoint,conjointe ou même un ami.</p>
+                    <h6>37.99$</h6>
+                    <h3>Billet Famille</h3>
+                    <img src="./assets/images/ticket3.png" alt="beaucoup de billets" data-scrolly="scaleTout" />
+                    <p>Billet pour vous et votre famille en entier. Pas de limite de billets.</p>
+                    <h6>50.99$</h6>
+                </div>
+                <section class="section">
+                    <div class="wrapper">
+                        <h2 class="section__title">Vidéos sur nos conférences</h2>
+                        <div class="grid-2">
+                            <div class="video" data-component="Video" data-video-id="skMCZIss0TU" data-controls="0">
+                                <div class="video__media js-video">
+                                    <img class="js-poster" src="assets/images/poster2.jpg" alt="Conference 1" />
+                                    <svg class="icon icon--stroke icon--xl">
+                                        <use xlink:href="#icon-play"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="video" data-component="Video" data-video-id="VLJRo2gsrmo" data-controls="0">
+                                <div class="video__media js-video">
+                                    <img class="js-poster" src="assets/images/poster3.jpg" alt="Conference 1" />
+                                    <svg class="icon icon--stroke icon--xl">
+                                        <use xlink:href="#icon-play"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="commanditaires">
+                    <h2>Nos Commanditaires</h2>
+                    <img src="./assets/images/subway.png" alt="Subway" data-scrolly="scaleX" />
+                    <img src="./assets/images/redbull.png" alt="redbull" data-scrolly="scaleX" />
+                    <img src="./assets/images/bell.png" alt="bell" data-scrolly="scaleX" />
+                    <img src="./assets/images/rbc.png" alt="rbc" data-scrolly="scaleX" />
+                    <img src="./assets/images/apple.png" alt="apple" data-scrolly="scaleX" />
+                    <img src="./assets/images/cocacola.png" alt="cocacola" data-scrolly="scaleX" />
+                </div>
+            </div>
+            <footer>
+                <div class="wrapper">
+                    <div class="media">
+                        <div class="sociaux">
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-facebook"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-twitter"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-youtube"></use>
+                            </svg>
+                            <svg class="icon icon--md">
+                                <use xlink:href="#icon-discord"></use>
+                            </svg>
+                        </div>
+                        <p>
+                            Projet fictif réalisé par ÉTUDIANT dans le cadre du cours Design d’expériences Techniques
+                            d’intégration multimédia - Collège Édouard-Montpetit
+                        </p>
+                    </div>
+                </div>
+            </footer>
+            <div
+                class="snackbar"
+                data-component="snackbar"
+                data-delay="2000"
+                data-auto-hide="true"
+                data-scroll-limit="0.5"
+                data-id="1"
+            >
+                <div class="wrapper">
+                    <div class="snackbar__content">
+                        <p>Cette page est en train de utiliser vos cookies!</p>
+                        <svg class="icon icon--md fermersnackbar">
+                            <use xlink:href="#icon-close"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

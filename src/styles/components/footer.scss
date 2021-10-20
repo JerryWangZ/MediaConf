@@ -1,0 +1,25 @@
+footer {
+    text-align: center;
+    background-color: var(--color-bg-nav);
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+    footer {
+        .sociaux {
+            font-size: 30px;
+        }
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: $breakpoint-md) {
+    footer {
+        .sociaux {
+            font-size: 25px;
+        }
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,62 @@
+.hero {
+    background-image: url('./../assets/images/PersonnesAssis.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 375px;
+    text-align: left;
+    display: flex;
+
+    h3 {
+        background-color: var(--color-black);
+        width: 193px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 75px;
+    }
+    .contenu-hero {
+        margin-left: 28px;
+        padding-top: 35px;
+    }
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+    .hero {
+        background-image: url('../assets/images/Hero.png');
+        height: 866px;
+        max-width: 100vw;
+        text-align: left;
+        align-items: center;
+        align-self: center;
+        justify-content: left;
+        margin-bottom: 30px;
+
+        h3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .contenu-hero {
+            margin-left: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-md) {
+    .hero {
+        background-image: url('../assets/images/Hero.png');
+        height: 866px;
+        max-width: 100vw;
+        text-align: left;
+        align-items: center;
+        align-self: center;
+        justify-content: left;
+        margin-bottom: 30px;
+
+        h3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .contenu-hero {
+            margin-left: 50px;
+        }
+    }
+}
